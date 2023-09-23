@@ -1,0 +1,64 @@
+1)terraform plan:- Read the code according doing the step
+
+#user defined variables
+2)terraform plan -var "username=pranav"
+
+3)terraform plan -var "username=pranav" -var "age=20"
+
+4)terraform plan -var 'users=["gaurav","saurav","ankit"]'
+
+5)terraform plan -var "username=saurav"
+
+#For tfvars files
+6)terraform plan -var-file=development.tfvars
+
+7)#for system defined
+#### for windows : set TF_VAR_username=Hina
+terraform plan
+
+#### for linux
+echo $username
+export username="Hina"
+
+
+8)terraform providers: list the current providers
+
+9) terraform init:- to download plugin
+
+10)terraform apply:-create the resource
+
+11)terraform apply --auto-approve
+
+12)terraform destroy:-
+
+13)terraform.tfstate:- main state of file
+
+14)Delete specific resources:- terraform destroy --target github_repository.terraform-second-repo
+
+15)terraform validate
+
+16)terraform refresh
+
+17)terraform show
+
+18)terraform output terraform-fist-repo-url
+
+19)terraform console:- to print the value before apply command
+
+20)terraform fmt:-
+
+21)ssh command:- ssh -i id_rsa ubuntu@107.21.172.8
+
+22)terraform taint :- not recommended
+
+23)ssh-keygen -t rsa
+
+
+
+########################### 12 AWS First instance #########################################
+
+terraform fmt
+terraform init
+terraform plan
+terraform apply
+terraform destroy
